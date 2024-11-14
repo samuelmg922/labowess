@@ -8,14 +8,14 @@ body {
     font-family: Arial, sans-serif;
     color: #2a2a2a;
     line-height: 1.6;
-    background-color: #e6f0ff;
+    background-color: #e6f1ff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header, footer {
-    background-color: #2a75ff;
+    background-color: #ff8701;
     color: #ffffff;
     text-align: center;
     padding: 1em 0;
