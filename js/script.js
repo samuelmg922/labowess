@@ -19,9 +19,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (mensaje.value.trim() === "") {
+<<<<<<< HEAD
             alert("Ingrese un mensaje, por favor");
             valid = false;
             }
+=======
+            alert("Por favor, ingrese un mensaje.");
+        }
+>>>>>>> hotfix-js
 
         if (!valid) {
             event.preventDefault();
