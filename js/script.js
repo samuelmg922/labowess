@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
             valid = false;
         }
 
-
+        if (mensaje.value.trim() === "") {
+            alert("Por favor, ingrese un mensaje.");
+        }
 
         if (!valid) {
             event.preventDefault();
